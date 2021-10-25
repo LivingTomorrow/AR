@@ -43,13 +43,17 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <a-text 
-                    value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id turpis purus. Donec ut blandit neque. Fusce rutrum lacinia nunc, nec dignissim massa ultricies non. Pellentesque semper laoreet nunc, ac commodo massa viverra in. Proin quis lectus in eros dignissim suscipit. Nunc commodo tincidunt blandit. Suspendisse euismod nisl nec ex egestas rhoncus. Vivamus vitae risus eget enim finibus luctus. Etiam vel porttitor metus. Donec quis ex arcu. Suspendisse interdum sodales ligula, ut congue turpis. Vestibulum mi lacus, placerat vitae eros eget, ullamcorper lobortis mauris." 
-                    rotation="-90 0 0"
-                    text="align: center;background-color:black;"
-                    background="color: grey"
-                    color="green"
-                ></a-text>
+            <a-entity
+            id="infoPanel"
+            position="0 0 0.5"
+            visible="false"
+            scale="0.001 0.001 0.001"
+            geometry="primitive: plane; width: 1.5; height: 1.8"
+            material="color: #333333;">
+            <a-entity id="movieDescription"
+              position="-0.68 -0.2 0"
+              text="baseline: top; shader: msdf; anchor: left; color: white; value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></a-entity>
+          </a-entity>
 
   
             </a-marker>
