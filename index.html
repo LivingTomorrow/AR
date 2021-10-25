@@ -1,11 +1,6 @@
 <!doctype html>
 <html>
     <head>
-        <style>
-            .movieDescription{
-                z-index: 1;
-            }
-        </style>
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
         <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
@@ -56,7 +51,8 @@
             geometry="primitive: plane; width: 1.5; height: 1.8"
             material="color: grey;">
             <a-entity id="movieDescription"
-              position="0 0 4"
+              position="0 0 1"
+              style="z-index: 1;"
               text="baseline: top; anchor: left; color: white; value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></a-entity>
           </a-entity>
 
