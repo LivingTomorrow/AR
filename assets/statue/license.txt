@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bust of a rhetorician_Restored
+* source:	https://sketchfab.com/3d-models/bust-of-a-rhetorician-restored-941c7c6c811f448abe35efbcf293d338
+* author:	Digital_Restoration (https://sketchfab.com/Digital_Restoration)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bust of a rhetorician_Restored" (https://sketchfab.com/3d-models/bust-of-a-rhetorician-restored-941c7c6c811f448abe35efbcf293d338) by Digital_Restoration (https://sketchfab.com/Digital_Restoration) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
