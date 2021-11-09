@@ -15,8 +15,7 @@
             renderer="logarithmicDepthBuffer: true;"
             arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
             id="scene"
-            embedded
-        >
+            embedded>
             <a-assets>
                 <a-asset-item
                     id="lorem-asset"
@@ -31,7 +30,6 @@
                     src="assets/town/scene.gltf"
                 ></a-assets-item>
             </a-assets>
-
             <a-marker
                 id="animated-marker"
                 type="pattern"
@@ -49,10 +47,6 @@
                     gltf-model="#lorem-asset"
                     position="-0.25 0 0"
                 ></a-entity>
-            </a-entity>
-          
-
-  
             </a-marker>
             <a-marker
                 id="animated-marker"
@@ -62,8 +56,7 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerB"
-            >
+                id="markerB">
                 <a-entity
                     id="bowser-model"
                     scale="1 1 1 "
@@ -80,8 +73,7 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerB"
-            >
+                id="markerB">
                 <a-entity
                     id="bowser-model"
                     scale="0.5 0.5 0.5"
