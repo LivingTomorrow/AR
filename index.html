@@ -45,6 +45,30 @@
                     id="town2-asset"
                     src="assets/town2/scene.gltf"
                 ></a-assets-item>
+                <a-assets-item
+                    id="amber-asset"
+                    src="assets/amber/scene.gltf"
+                ></a-assets-item>
+                <a-assets-item
+                    id="car-asset"
+                    src="assets/car/scene.gltf"
+                ></a-assets-item>
+                <a-assets-item
+                    id="home-asset"
+                    src="assets/home/scene.gltf"
+                ></a-assets-item>
+                <a-assets-item
+                    id="room-asset"
+                    src="assets/room/scene.gltf"
+                ></a-assets-item>
+                <a-assets-item
+                    id="ship-asset"
+                    src="assets/ship/scene.gltf"
+                ></a-assets-item>
+                <a-assets-item
+                    id="tower-asset"
+                    src="assets/tower/scene.gltf"
+                ></a-assets-item>
             </a-assets>
             <a-marker
                 id="animated-marker"
@@ -157,12 +181,12 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerTown">
+                id="markerAmber">
                 <a-entity
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#amber-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker> 
@@ -174,12 +198,12 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerTown">
+                id="markerCar">
                 <a-entity
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#car-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker>
@@ -196,7 +220,7 @@
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#home-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker>
@@ -213,7 +237,7 @@
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#room-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker>
@@ -230,7 +254,7 @@
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#ship-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker>
@@ -247,7 +271,7 @@
                     id="bowser-model"
                     scale="0.1 0.1 0.1"
                     rotation="0 0 0"                    
-                    gltf-model="#drone-asset"
+                    gltf-model="#tower-asset"
                     position="0 0 0"
                 ></a-entity>
             </a-marker>
