@@ -29,6 +29,10 @@
                     id="town-asset"
                     src="assets/town/scene.gltf"
                 ></a-assets-item>
+                <a-assets-item
+                    id="drone-asset"
+                    src="assets/drone/scene.gltf"
+                ></a-assets-item>
             </a-assets>
             <a-marker
                 id="animated-marker"
@@ -79,6 +83,23 @@
                     scale="0.5 0.5 0.5"
                     rotation="0 -90 0"                    
                     gltf-model="#town-asset"
+                    position="-1.2 -0.5 0.5"
+                ></a-entity>
+            </a-marker>
+            <a-marker
+                id="pattern-drone"
+                type="pattern"
+                preset="custom"
+                url="assets/pattern-Drone.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerDrone">
+                <a-entity
+                    id="bowser-model"
+                    scale="0.5 0.5 0.5"
+                    rotation="0 -90 0"                    
+                    gltf-model="#drone-asset"
                     position="-1.2 -0.5 0.5"
                 ></a-entity>
             </a-marker>
