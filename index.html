@@ -10,6 +10,9 @@
     </head>
 
     <body style="margin: 0; overflow: hidden;">
+        <div class="arjs-loader">
+            <div>Loading, please wait...</div>
+        </div>
         <a-scene
             vr-mode-ui="enabled: false;"
             loading-screen="enabled: true;"
@@ -43,10 +46,6 @@
                     src="assets/town2/scene.gltf"
                 ></a-assets-item>
                 <a-assets-item
-                    id="spaceship-asset"
-                    src="assets/spaceship/scene.gltf"
-                ></a-assets-item>
-                <a-assets-item
                     id="car-asset"
                     src="assets/car/scene.gltf"
                 ></a-assets-item>
@@ -76,6 +75,8 @@
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
+                smooth="true"
+                smoothTolerance="0.5"
             >
                 <a-entity
                     id="bowser-model"
